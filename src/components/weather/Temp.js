@@ -10,7 +10,7 @@ const Temp = () => {
   // when you rehresh the page, the function should be called automatically -> in that case, we will use the useEffect hook
   const getWeatherInfo = async () => {
     try {
-      let url = `https://api.openweathermap.org/data/2.5/weather?q=${searchValue}&units=metric&appid=3472573da1444d0d54b43e1e19fb7841`;
+      let url = `API-KEY`;
 
       // fetch will return a promise, so we'll need to write the keyword await
       const res = await fetch(url);
